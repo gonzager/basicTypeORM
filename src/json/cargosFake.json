@@ -1,0 +1,97 @@
+{
+    "count": 2,
+    "data": [
+        {
+            "id": 1,
+            "funciona": true,
+            "numero": 158,
+            "sede": "Judicial Lomas de Zamora - las heras",
+            "createdAt": "2022-11-24T16:05:38.539Z",
+            "updatedAd": "2022-11-24T16:05:38.539Z",
+            "tipoCargo": {
+                "id": 1,
+                "descripcion": "JUEZ DE PRIMERA INSTANCIA"
+            },
+            "fuero": {
+                "id": 2,
+                "descripcion": "Penal"
+            },
+            "organismoJurisdiccional": {
+                "id": 2,
+                "descripcion": "ORGANISMO GENERAL PCIA. BS. AS"
+            },
+            "departamentoJudicial": {
+                "id": 3,
+                "descripcion": "Lomas de Zamora"
+            },
+            "estadoCargo": {
+                "id": 1,
+                "descripcion": "NO DESIGNADO",
+                "esVacancia": true,
+                "esInicial": true
+            },
+            "__cambiosEstadoCargo__": [
+                {
+                    "id": 1,
+                    "fecha": "2022-11-24T16:05:38.456Z",
+                    "motivoVacancia": "Estado Inicial No Designado",
+                    "detalle": "Estado Inicial",
+                    "archivo": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "funciona": true,
+            "numero": 87589,
+            "sede": "Sede La Plata",
+            "createdAt": "2022-11-24T16:05:38.539Z",
+            "updatedAd": "2022-11-24T16:05:38.539Z",
+            "tipoCargo": {
+                "id": 1,
+                "descripcion": "JUEZ DE PRIMERA INSTANCIA"
+            },
+            "fuero": {
+                "id": 4,
+                "descripcion": "Civil y Comercial"
+            },
+            "organismoJurisdiccional": {
+                "id": 1,
+                "descripcion": "TRIBUNAL DE CASACION PENAL"
+            },
+            "departamentoJudicial": {
+                "id": 1,
+                "descripcion": "La Plata"
+            },
+            "estadoCargo": {
+                "id": 3,
+                "descripcion": "CUBIERTO",
+                "esVacancia": true,
+                "esInicial": false
+            },
+            "__cambiosEstadoCargo__": [
+                {
+                    "id": 2,
+                    "fecha": "2022-11-24T16:05:38.456Z",
+                    "motivoVacancia": "Estado Inicial No Designado",
+                    "detalle": "Estado Inicial",
+                    "archivo": null
+                },
+                {
+                    "id": 3,
+                    "fecha": "2022-11-24T16:05:38.456Z",
+                    "motivoVacancia": "Estado Vacante",
+                    "detalle": "Vacante",
+                    "archivo": null
+                },
+                {
+                    "id": 4,
+                    "fecha": "2022-11-24T16:05:38.456Z",
+                    "motivoVacancia": null,
+                    "detalle": "Cubierto",
+                    "archivo": null
+                }
+            ]
+        }
+    ]
+}
